@@ -1,0 +1,34 @@
+# Assignment in Computer Programming
+
+# DOT METHOD
+
+# EXAMPLE A
+import numpy as np
+
+a = np.array([[3.3, 5.4], [4.6, 3.2]])
+b = np.array([[4, 3], [3, 5]])
+
+result = np.dot(a,b)
+
+print(f'EXAMPLE A:{result}')
+
+# EXAMPLE B
+import numpy as np
+
+a = np.array([[3, 4], [2, 8]])
+b= np.array([[6, 8], [7, 9]])
+
+result = np.dot(a, b)
+
+print(f"Example B: {result}")
+
+# EXAMPLE C
+import numpy as np
+
+a = np.array([[3, 2], [8, 6]])
+b = np.array([4, 5])
+
+result = np.dot(a, b)
+
+print(f"Example C: {result}")
+

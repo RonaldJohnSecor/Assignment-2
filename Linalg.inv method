@@ -1,0 +1,31 @@
+# linalg.inv method
+
+# EXAMPLE A
+import numpy as np
+from numpy.linalg import inv
+
+A = np.array([[3.7, 5.3], [5.5, 3.1]])
+
+result = inv(A)
+
+print(f'EXAMPLE A:{result}')
+
+# EXAMPLE B
+import numpy as np
+from numpy.linalg import inv
+
+A = np.array([[6, 5], [7, 8]])
+
+result = inv(A)
+
+print(f'EXAMPLE B:{result}')
+
+# EXAMPLE C
+import numpy as np
+from numpy.linalg import inv
+
+A = np.array([[4, 6], [7,5]])
+
+result = inv(A)
+
+print(f'EXAMPLE C:{result}')
